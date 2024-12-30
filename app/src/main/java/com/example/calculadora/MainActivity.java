@@ -75,6 +75,16 @@ public class MainActivity extends AppCompatActivity {
                     arrastrado=resultado;
 
                 }
+                else if(OperadorSeleccionado[0].equals("/")&&(num2>0)){
+                    resultado=num1/num2;
+                    arrastrado=resultado;
+
+                }
+                else if(OperadorSeleccionado[0].equals("/")&&(num2==0)){
+                    Toast.makeText(getApplicationContext(),"No se puede dividir por 0", Toast.LENGTH_LONG).show();
+
+
+                }
 
                 Resultado_Final.setText(String.valueOf(resultado));
             }
