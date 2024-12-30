@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+    <string name="Titulo">Calculadora</string>
+    <string name="Subtitulo">Introduce 2 números, selecciona la operación y obtén el resultado</string>
+    <string name="Numero1">Introduce el primer número:</string>
+    <string name="Numero2">Introduce el segundo número:</string>
+    <string name="Operaciones">Introduce la operación:</string>
+    <string name="Suma">+</string>
+    <string name="Resta">-</string>
+    <string name="Multiplicar">*</string>
+    <string name="Dividir">/</string>
+    <string name="Calcular">Calcular</string>
+    <string name="Guardar">Guardar</string>
+    <string name="Borrar">Borrar</string>
+    <string name="Mostrar">Mostrar</string>
+    <string name="Resultado">Resultado:</string>
+    <string name="Final">Aqui aparecerá el resultado</string>
+    <string name="Resultado_anterior">Resultado de la operación anterior</string>
+</resources>

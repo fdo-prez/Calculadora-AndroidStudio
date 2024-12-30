@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Sumar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCB1B1"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Titulo"
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="@string/Titulo"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/Subtitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="@string/Subtitulo"
+        android:textSize="20sp" />
+
+    <Space
+        android:id="@+id/Espacio1"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:background="#902929" />
+
+    <LinearLayout
+        android:id="@+id/NUM1"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/Introducir1"
+            android:layout_width="192dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/Numero1"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Cifra1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="1234.3"
+            android:inputType="text" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:text="@string/Operaciones"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/suma"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="16sp"
+                android:text="@string/Suma" />
+
+            <RadioButton
+                android:id="@+id/resta"
+                android:layout_width="58dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="16sp"
+                android:text="@string/Resta"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/dividir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16sp"
+                android:text="@string/Dividir" />
+
+            <RadioButton
+                android:id="@+id/multiplicar"
+                android:layout_width="248dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="16sp"
+                android:text="@string/Multiplicar" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/Introducir2"
+            android:layout_width="211dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/Numero2"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Cifra2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="4992"
+            android:inputType="text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btMostrar"
+            android:layout_width="99dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/Mostrar"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btGuardar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/Guardar" />
+
+        <Button
+            android:id="@+id/btCalcular"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/Calcular" />
+
+        <Button
+            android:id="@+id/btBorrar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/Borrar" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Resultado"
+        android:layout_width="210dp"
+        android:layout_height="39dp"
+        android:text="@string/Resultado"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Resultado_Final"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#A99E9E"
+        android:text="@string/Final"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/ResArrastrado"
+            android:layout_width="33dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/Resultado_anterior"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/NumArrastrado"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:hint="2346"
+            android:textSize="34sp" />
+    </LinearLayout>
+
+</LinearLayout>

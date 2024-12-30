@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Rojo_coral">#FF4040</color>
+    <color name="Rosa_claro">#FFB6C1</color>
+    <color name="Rosa_pastel">#FFD1DC</color>
+    <color name="Rosa_fuerte">#FF69B4</color>
+    <color name="RosaM">#E4007C</color>
+    <color name="Rojo_claro">#FF7F7F</color>
+    <color name="Burdeos">#800000</color>
+    <color name="Rojo2">#FF4500</color>
+    <color name="Lavanda">#FBAED2</color>
+</resources>
